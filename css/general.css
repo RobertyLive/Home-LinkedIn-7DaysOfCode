@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+.content{
+    padding: 0px 200px;
+}
+h1, h2, h3, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
