@@ -1,0 +1,95 @@
+.grid-main{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+    gap: 32px;
+    max-width: 1200px
+}
+
+.capa-img{
+    width: 100%;
+}
+
+.perfil-img{
+    max-width: 20%;
+    border-radius: 50%;
+    border: solid 2px #1B2226;
+    position: absolute;
+    top: 130px;
+    left: 24px;
+
+}
+
+.perfil-main{
+    background-color: #1B2226;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.sobre{
+    display: grid;
+    gap: 5px;
+}
+
+.ponto{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: var(--color-text-secundario);
+    border-radius: 50%;
+}
+
+.grid-aling{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.infor{
+    margin: 60px 0px 30px 0px;
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.sobre h2{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.sobre h1{
+    font-weight: 500;
+}
+.sobre p ,.sobre a{
+    font-size: .9rem;
+}
+.grid-btns{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    justify-content: left;
+    gap: 10px;
+}
+.btn-message-color, .btn-message{
+    padding: 10px 20px;
+
+    border-radius: 2rem;
+    display: inline-block;
+    border: 1px solid var(--color-link);
+    text-align: center;
+}
+.btn-message-color{
+    color: rgba(00, 00, 00, 75%);
+    background-color: var(--color-link);
+}
+
+.empresas{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 2rem 2rem;
+    gap: 10px;
+    align-items: center;
+}
+
+.empresas span{
+    color: var(--color-text-primario);
+}

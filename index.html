@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <title>Home Linkedin</title>
 </head>
 
@@ -18,7 +23,7 @@
                     <img class="lupa" src="./icons/lupa.svg" alt="">
                     <input class="search-t" type="text" name="search" id="" placeholder="Digite">
                 </div>
-                <nav class="nav-options">
+                <nav aria-label="primeira navegacao primaria" class="nav-options">
                     <ul class="options">
                         <li><a href="./"><img src="./icons/home.svg" alt=""></a></li>
                         <li><a href="./"><img src="./icons/pessoas.svg" alt=""></a></li>
@@ -35,7 +40,7 @@
                 </nav>
             </div>
 
-            <nav class="nav-options-2">
+            <nav aria-label="segunda navegacao primaria" class="nav-options-2">
                 <ul class="solucao">
                     <li><a href="./"><img src="./icons/solucoes.svg" alt=""></a></li>
                     <li><a href="./">Soluções</a></li>
@@ -44,6 +49,39 @@
 
         </div>
     </header>
+
+    <main>
+        <div class="grid-main content">
+            <div class="perfil-main">
+                <img class="capa-img" src="./imgs/Imagem de capa.png" alt="Capa">
+                <img class="perfil-img" src="./imgs/perfil-img.jpg" alt="">
+                <div class="infor">
+                    <div class="sobre">
+                        <h1>Robert Azevedo</h1>
+                        <h2>Desenvolvedor: HTML | CSS | JS | C# | Unity</h2>
+                        <p>Fala sobre #JS #FRONTEND #CSHARP #GAMES</p>
+                        <p class="grid-aling">São Luis, Maranhão Brasil <span class="ponto"></span> <a
+                                href="./">informações de contato</a></p>
+                        <a class="grid-aling" href="./">5 Seguidores <span class="ponto"></span> 4 Conexões</a>
+                        <div class="grid-btns">
+                            <a class="btn-message-color" href="./">Mensagem</a>
+                            <a class="btn-message" href="./">Mais</a>
+                        </div>
+                    </div>
+                    <div class="empresas">
+                        <img src="./imgs/empresa.png" alt="LOGO EMPRESA">
+                        <span>Empresa</span>
+                        <img src="./imgs/ensino.png" alt="LOGO EMPRESA">
+                        <span>Instituição de ensino</span>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Hello</h1>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
