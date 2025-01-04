@@ -1,9 +1,6 @@
 .grid-main{
     margin-top: 24px;
     display: grid;
-    grid-template-columns: 4.6fr 1fr;
-    gap: 32px;
-    max-width: 1135px
 }
 
 .capa-img{
@@ -17,12 +14,9 @@
     position: absolute;
     top: 130px;
     left: 24px;
-
 }
 
-.perfil-main{
-    background-color: #1B2226;
-    border-radius: 1rem;
+.perfil-main{    
     position: relative;
 }
 

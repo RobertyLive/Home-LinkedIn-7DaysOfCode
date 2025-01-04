@@ -9,6 +9,25 @@ body{
     font-family: Roboto;
 }
 
+.bg-div{
+    background-color: #1B2226;
+    border-radius: 1rem;
+}
+
+.box-size{
+    max-width: 1135px
+
+}
+.box{
+    grid-template-columns: 4.6fr 1fr;
+    gap: 32px;
+}
+.box-sub{
+    grid-template-columns: .795fr;
+}
+.box-margin{
+    padding: 16px 0px;
+}
 .content{
     padding: 0px 200px;
 }

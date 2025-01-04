@@ -1,0 +1,84 @@
+body{
+    height: 1000px;
+}
+
+.grid-destaque{
+    margin-top: 8px;
+    display: grid;
+    /* grid-template-columns: 600px; */
+}
+
+.title-destaque{
+    font-size: 20px;
+    padding: 0px 24px;
+}
+.box-item{
+    border: solid 1px white;
+    border-radius: 10px;
+    padding: 6px 0px 0px;
+    margin-top: 8px;
+}
+
+
+
+.box-item span{
+    color: var(--color-text-secundario);
+    font-size: .7rem;
+    padding: 4px 14px;
+}
+
+.bolas span{
+    padding: 4px 2px;
+}
+.box-item h2{
+    font-size: 1rem;
+    padding: 6px 14px !important;
+}
+
+.bolas{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 0px 14px;
+}
+.bola1{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: 0;
+}
+.bola2{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    left: 22px;
+}
+.bola3{
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    z-index: 2;
+    margin-right: 5px;
+}
+
+.footer-destaque{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 0px 10px;
+    flex: 1;
+}
+
+.box-item img{
+    max-width: 279px;
+}
