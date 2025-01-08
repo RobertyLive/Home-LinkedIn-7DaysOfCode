@@ -80,7 +80,7 @@ body{
 }
 
 .box-item img{
-    max-width: 279px;
+    max-width: 100%;
 }
 
 .boxsizeatv span{
