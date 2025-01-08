@@ -133,13 +133,14 @@
 }
 .infor-people p{
     font-size: .6rem;
+    max-width: 35ch;
 }
 
 .infor-people a{
     font-size: .7rem;
     border: solid 1px white;
     border-radius: 20px;
-    padding: 3px 15px;
+    padding: 7px 15px;
     justify-self: start;
     color: white;
     grid-row: 3;
@@ -156,4 +157,19 @@
 
 .sub-item{
     margin-top: 8px;
+}
+
+
+.infor-site{
+    padding: 25px;
+    text-align: center;
+}
+.infor-site h3{
+    
+    color: black;
+}
+
+.infor-site h4{
+    margin: 0;
+    color: #ccc;
 }
