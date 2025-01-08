@@ -1,0 +1,42 @@
+.grid-form{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 3px 9px;
+    margin-top: 15px;
+}
+
+.grid-form img{
+    height: 100%;
+    grid-row: 1/4;
+}
+
+.grid-form h1{
+    font-size: 1rem;
+}
+
+.grid-form h3{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.grid-form span{
+    color: #888;
+    font-size: .7rem;
+}
+
+.space-to{
+    margin-top: 10px;
+}
+
+.idiomas h3{
+    font-size: 1rem;
+}
+
+.idiomas p{
+    font-size: .7rem;
+}
+
+.grid-idiomas{
+    display: grid;
+    gap: 10px;
+}

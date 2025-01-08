@@ -3,6 +3,10 @@
     --color-text-secundario: #999;
     --color-link: #70B5F9;
 }
+main{
+    background-color: black;
+    padding: 24px 0px;
+}
 
 body{
     margin: 0;
@@ -15,21 +19,20 @@ body{
 }
 
 .box-size{
-    max-width: 1135px
-
+    max-width: 1135px;
 }
 .box{
     grid-template-columns: 4.6fr 1fr;
     gap: 32px;
 }
 .box-sub{
-    grid-template-columns: .795fr;
+    /* grid-template-columns: .795fr; */
 }
 .box-margin{
     padding: 16px 0px;
 }
-.content{
-    padding: 0px 200px;
+.content-grid{
+    padding: 0px 150px;
 }
 h1, h2, h3, ul, li, a, p{
     margin: 0;
@@ -38,7 +41,7 @@ h1, h2, h3, ul, li, a, p{
     text-decoration: none;
 }
 
-h1, h2{
+h1, h2, h3{
     color: var(--color-text-primario);
 }
 

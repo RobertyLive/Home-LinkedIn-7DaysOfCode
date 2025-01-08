@@ -1,6 +1,7 @@
 .grid-main{
-    margin-top: 24px;
+    /* margin-top: 24px; */
     display: grid;
+    /* grid-template-columns: auto auto; */
 }
 
 .capa-img{
@@ -23,6 +24,8 @@
 .sobre{
     display: grid;
     gap: 5px;
+    margin: 0px 0px 24px 0px;
+    
 }
 
 .ponto{
@@ -86,4 +89,71 @@
 
 .empresas span{
     color: var(--color-text-primario);
+}
+
+
+/* PARTE DOIS DO MAIN */
+
+.space-people{
+    padding: 16px;
+    background-color: #1B2226;
+    border-radius: 10px;
+}
+.content-a{
+    align-content: start;
+}
+
+.people-grid{
+    display: grid;
+}
+
+.title-peoples{
+    font-size: .8rem;
+}
+
+
+.people-grid img{
+    width: 40px;
+}
+
+.grid-people{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.infor-people{
+    display: grid;
+    gap: 4px;
+}
+
+.infor-people h1{
+    font-size: .8rem;
+}
+.infor-people p{
+    font-size: .6rem;
+}
+
+.infor-people a{
+    font-size: .7rem;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 3px 15px;
+    justify-self: start;
+    color: white;
+    grid-row: 3;
+    text-align: center;
+
+}
+
+/* CONTROLE GRIDS */
+.two-sides{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+.sub-item{
+    margin-top: 8px;
 }
